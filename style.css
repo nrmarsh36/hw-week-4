@@ -1,0 +1,97 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 2px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hide {
+    display: none;
+}
+
+
+/* find a way to make it hide until start button is pressed */
+#timer { 
+    display: inline;
+    align-content: start;
+}
+
+#scoreTrack {
+    display: inline;
+    align-content: end;
+}
+
+
+#instructions {
+    font-size: larger;
+}
+
+
+/* may change */
+.btnLayout {
+    display: grid;
+    margin-top: 30px;
+    /* grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0; */
+}
+
+.ansBtn {
+    background-color: darkblue;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Button styling from https://www.w3schools.com/css/css3_buttons.asp */
+#startBtn {
+    background-color: darkblue;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#startBtn:hover {
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+#startBtn:active {
+    box-shadow: 0 5px #666;
+    color: black;
+    transform: translateY(4px);
+}
+
+.btnCorrect {
+    background-color: limegreen;
+} */
+
+
+.btnWrong {
+    background-color: red;
+}

@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel='stylesheet' href='./style.css'/>
+    <title>Coding Quiz Game</title>
 </head>
 <body>
     
+    <div class = "container">
+        
+        <div id="scoreTrack">
+            <p>View High Scores</p>
+        </div>
+        <div  class="hide">
+            <p id='timer'></p>
+        </div>
+       
+        <br></br>
+        <div id='questionsPage' class="hide">
+            <div id='questionText'>Question text test</div>
+            <div id="answerBtns" class='btnLayout'>
+                <button class="ansBtn">Answer 1</button>
+                <button class="ansBtn">Answer 2</button>
+                <button class="ansBtn">Answer 3</button>
+                <button class="ansBtn">Answer 4</button>
+            </div>
+        </div>
+        <div id="openingText">
+            <h1>Coding Quiz Game</h1>
+            <br>
+            <p id="instructions">You will have 60 seconds to answer 10 multiple choice questions. Each correct answer is worth 5 points. For every incorrect answer, 5 seconds will be taken away from the timer. At the end of the game, please include your initials to be attached to your high score, and feel free to play again in pursuit of the perfect game. Good luck!</p>
+            <br></br>
+            <div>
+            <button id="startBtn">Start Game</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+<script src='./script.js'></script>
+
 </body>
 </html>
